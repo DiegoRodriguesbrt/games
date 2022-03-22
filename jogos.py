@@ -1,9 +1,13 @@
 import adivinhacao
 import forca
 
-print("*********************************")
-print("******ESCOLHA O SEU JOGO!!*******")
-print("*********************************")
+def mensagem_inicio():
+    print("*********************************")
+    print("******ESCOLHA O SEU JOGO!!*******")
+    print("*********************************")
+
+
+mensagem_inicio()
 
 print("(1)FORCA  (2)ADIVINHAÇÃO")
 
